@@ -29,9 +29,9 @@ namespace NetCore.Core.MongoDb.Test
             {
                 var config = serviceProvider.GetService<IOptions<Config>>().Value;
 
-                var rpUser = serviceProvider.GetService<BookRepository>();
+                var rpBook = serviceProvider.GetService<BookRepository>();
 
-                var obj = rpUser.GetByIdAsync(1).Result;
+                var obj = rpBook.GetByIdAsync(1).Result;
 
             }
             catch (System.Exception ex)
