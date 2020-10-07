@@ -1,0 +1,9 @@
+{
+    "MongoDb": {
+        "Username": "user",
+        "Password": "User%40123",
+        "Host": "localhost",
+        "Port": 27017,
+        "Database": "xdxg"
+    }
+}
